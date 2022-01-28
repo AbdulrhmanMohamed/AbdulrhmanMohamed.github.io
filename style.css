@@ -48,3 +48,26 @@ h1 {
         transform: rotate(360deg);
     }
 }
+
+
+/*  image container */
+
+.image-container {
+    margin: 10px 30%;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+
+/*  control the size on the small screens {smart phones} */
+
+@media screen and (max-width:1000px) {
+    h1 {
+        font-size: 20px;
+    }
+    .image-container {
+        margin: 10px;
+    }
+}
