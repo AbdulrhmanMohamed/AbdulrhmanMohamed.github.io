@@ -1,2 +1,2 @@
 # infiniteScroll
-infinite scroll image from unsplash 
+infinite scroll images gets loaded  from unsplash 
