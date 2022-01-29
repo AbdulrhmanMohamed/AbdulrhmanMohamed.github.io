@@ -81,7 +81,7 @@ getPhotos();
 
 window.addEventListener('scroll', () => {
 
-    if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 500) {
+    if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 1000) {
         getPhotos();
         console.log("images gets loaded");
     }
