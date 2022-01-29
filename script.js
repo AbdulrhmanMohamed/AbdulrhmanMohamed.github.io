@@ -1,6 +1,7 @@
 const imageContainer = document.querySelector('#image-container');
 const loader = document.querySelector('#loader');
 const clienId = "_Nd3LRkWgNKFcXO5RHIHnxrioGk5ehieQDBoarCyZOo";
+
 const maxCount = 10;
 const urlApi = `https://api.unsplash.com/photos/random?client_id=${clienId}&count=${maxCount}`;
 
